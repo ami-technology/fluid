@@ -26,6 +26,7 @@ export default defineConfig({
     optimizeDeps: {
       include: [
         '@sanity/image-url',
+        "@sanity/visual-editing",
       ],
     },
   },
