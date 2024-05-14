@@ -13,7 +13,7 @@ export default defineConfig({
       'react-use/esm/useMedia',
       'react-use/esm/useDebounce',
       'react-use/esm/useSessionStorage',
-    ]
+    ],
   },
   plugins: [
     envOnly(),
@@ -24,10 +24,7 @@ export default defineConfig({
   ],
   ssr: {
     optimizeDeps: {
-      include: [
-        '@sanity/image-url',
-        "@sanity/visual-editing",
-      ],
+      include: ['@sanity/*'],
     },
   },
 });
